@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+header, footer {
+	background: yellow;
+	width: 100%;
+}
+header {
+	padding: 20px 0;
+}
+footer {
+	text-align: center;
+}
+footer p {
+	padding: 8px 0;
+}
+main {
+	background: lightblue;
+	width: 100%;
+	padding: 20px;
+}
+article {
+	width: 80%;
+	margin: auto;
+	padding: 8px 0; 
+}
+hr {
+	padding-top: 8px;
+	color: black;
+	background: black;
+}
+header {
+	display: flex;
+	justify-content: space-around;
+}
+#burger:hover {
+	cursor: pointer;
+}
+ul {
+	list-style:none;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
